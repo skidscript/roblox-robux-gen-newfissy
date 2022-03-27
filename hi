@@ -22,5 +22,5 @@ local args = {
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 
 while wait() do
-game.Players:ReportAbuse(game.Players.LocalPlayer "Bullying", "gay")
+game.Players:ReportAbuse(game.Players.LocalPlayer, "Bullying", "gay")
 end
