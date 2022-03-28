@@ -37,4 +37,5 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 
 while wait() do
 game.Players:ReportAbuse(game.Players.LocalPlayer.Name, "Bullying", "gay")
+print("Report sent!")
 end
